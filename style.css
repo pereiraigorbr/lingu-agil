@@ -1,0 +1,169 @@
+@font-face { 
+    font-family: 'pixelmix';
+    src: url('/fonts/pixelmix.ttf');
+    src: local('pixelmix'), local('pixelmix'), url('/fonts/pixelmix.ttf') format('truetype');
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'pixelmix';
+}
+
+body {
+    background-color: #222533;
+}
+
+
+/* MOBILE VERSION */
+
+.logotipo {
+    width: 235.56px;
+    height: 60px;
+    padding: 143px 0px 50px 0px;
+    margin: 0px 69.72px 0px 69.72px;
+}
+
+.local-date {
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.date {
+    padding-bottom: 36px;
+}
+
+.butoon {
+    padding: 100px 0px 50px 0px;
+    margin: 0px 82.5px 0px 82.5px;
+}
+
+.calltoaction {
+    font-size: 13px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    background-color: #77F375;
+    padding: 14px;
+}
+
+a:-webkit-any-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 110px 0px 110px;
+}
+
+.fa-facebook-f {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.fa-twitter {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.fa-meetup {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+/* TABLET VERSION */
+
+@media(min-width: 768px) { 
+
+    .logotipo {
+        width: 367.56px;
+        height: 93px;
+        padding: 301px 0px 50px 0px;
+        margin: 0px 200.22px 0px 200.22px;
+    }
+
+    .local-date {
+        font-size: 15px;
+    }
+
+    .butoon {
+        padding: 100px 0px 50px 0px;
+        margin: 0px 263px 0px 263px;
+    }
+
+    .calltoaction {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    .icons {
+        margin: 0px 300px 0px 300px;
+    }
+
+    .fa-facebook-f {
+        font-size: 33px;
+    }
+    
+    .fa-twitter {
+        font-size: 33px;
+    }
+    
+    .fa-meetup {
+        font-size: 33px;
+    }
+    
+}
+
+
+/* DESKTOP VERSION */
+
+@media(min-width: 992px) {
+
+    .logotipo {
+        width: 465.56px;
+        height: 118px;
+        padding: 283px 0px 50px 0px;
+        margin: 0px 285.22px 0px 285.22px;
+    }
+    
+    .local-date {
+        font-size: 20px;
+    }
+    
+    .butoon {
+        padding: 100px 0px 50px 0px;
+        margin: 0px 376px 0px 376px;
+    }
+
+    .calltoaction {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .icons {
+        margin: 0px 415px 0px 415px;
+    }
+
+    .fa-facebook-f {
+        font-size: 36px;
+    }
+    
+    .fa-twitter {
+        font-size: 36px;
+    }
+    
+    .fa-meetup {
+        font-size: 36px;
+    }
+
+
+
+
+}
