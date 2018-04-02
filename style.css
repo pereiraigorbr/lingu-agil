@@ -1,7 +1,7 @@
 @font-face { 
     font-family: 'pixelmix';
-    src: url('/fonts/pixelmix.ttf');
-    src: local('pixelmix'), local('pixelmix'), url('/fonts/pixelmix.ttf') format('truetype');
+    src: url('fonts/pixelmix.ttf');
+    src: local('pixelmix'), local('pixelmix'), url('fonts/pixelmix.ttf') format('truetype');
  }
 
 * {
@@ -14,6 +14,16 @@ body {
     background-color: #222533;
 }
 
+.container {        
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
 
 /* MOBILE VERSION */
 
@@ -34,11 +44,6 @@ body {
     padding-bottom: 36px;
 }
 
-.butoon {
-    padding: 100px 0px 50px 0px;
-    margin: 0px 82.5px 0px 82.5px;
-}
-
 .calltoaction {
     font-size: 13px;
     color: #FFFFFF;
@@ -55,8 +60,7 @@ a:-webkit-any-link {
 
 .icons {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 110px 0px 110px;
+    justify-content: center;                              
 }
 
 .fa-facebook-f {
@@ -69,19 +73,12 @@ a:-webkit-any-link {
     text-align: center;
     color: #FFFFFF;
     font-size: 30px;
+    margin-left: 30px;
 }
-
-.fa-meetup {
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
 
 /* TABLET VERSION */
 
 @media(min-width: 768px) { 
-
     .logotipo {
         width: 367.56px;
         height: 93px;
@@ -103,29 +100,20 @@ a:-webkit-any-link {
         padding: 16px;
     }
 
-    .icons {
-        margin: 0px 300px 0px 300px;
-    }
-
     .fa-facebook-f {
         font-size: 33px;
     }
     
     .fa-twitter {
         font-size: 33px;
+        margin-left: 30px;
     }
-    
-    .fa-meetup {
-        font-size: 33px;
-    }
-    
 }
 
 
 /* DESKTOP VERSION */
 
 @media(min-width: 992px) {
-
     .logotipo {
         width: 465.56px;
         height: 118px;
@@ -135,35 +123,10 @@ a:-webkit-any-link {
     
     .local-date {
         font-size: 20px;
-    }
-    
+    } 
+
     .butoon {
-        padding: 100px 0px 50px 0px;
-        margin: 0px 376px 0px 376px;
+        display: flex;
+        justify-content: center;
     }
-
-    .calltoaction {
-        font-size: 18px;
-        padding: 16px;
-    }
-
-    .icons {
-        margin: 0px 415px 0px 415px;
-    }
-
-    .fa-facebook-f {
-        font-size: 36px;
-    }
-    
-    .fa-twitter {
-        font-size: 36px;
-    }
-    
-    .fa-meetup {
-        font-size: 36px;
-    }
-
-
-
-
 }
