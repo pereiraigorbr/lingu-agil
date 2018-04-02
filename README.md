@@ -1,2 +1,2 @@
 # lingu-agil
-Landing page temporário para o LinguÁgil. Evento sobre metodologias ágeis. 
+Landing page temporária para o LinguÁgil. Evento sobre metodologias ágeis. 
